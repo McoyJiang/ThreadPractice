@@ -1,4 +1,4 @@
-package com.danny.systracedemo;
+package com.danny.thread_practice;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

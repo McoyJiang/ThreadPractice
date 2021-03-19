@@ -1,4 +1,4 @@
-package com.danny.systracedemo;
+package com.danny.thread_practice;
 
 public class Foo {
 

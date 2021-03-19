@@ -1,8 +1,5 @@
-package com.danny.systracedemo;
+package com.danny.thread_practice;
 
-import org.junit.Test;
-
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

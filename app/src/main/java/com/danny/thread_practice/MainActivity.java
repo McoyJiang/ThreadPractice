@@ -1,9 +1,11 @@
-package com.danny.systracedemo;
+package com.danny.thread_practice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+
+import com.danny.thread_practice.R;
 
 public class MainActivity extends AppCompatActivity {
 
