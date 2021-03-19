@@ -8,7 +8,7 @@ public class FooOrderExecute {
 
     Foo foo = new Foo();
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         FooOrderExecute et = new FooOrderExecute();
         // et.testFooWithReentrantLock();
         et.testFooWithSemaphore();
@@ -102,21 +102,17 @@ public class FooOrderExecute {
         t2.start();
         t1.start();
     }
-}
 
-class Foo {
-
-    public void first() {
-        System.out.println("first");
-    }
-
-    public void second() {
-        System.out.println("second");
-    }
-
-    public void third() {
-        System.out.println("third");
+    class Foo {
+        public void first() {
+            System.out.println("first");
+        }
+        public void second() {
+            System.out.println("second");
+        }
+        public void third() {
+            System.out.println("third");
+        }
     }
 
 }
-
